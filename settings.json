@@ -1,11 +1,13 @@
 {
   "telemetry.telemetryLevel": "off",
+  // Window.
   "window.restoreWindows": "none",
   "window.menuBarVisibility": "toggle",
   "window.newWindowDimensions": "inherit",
-  "window.title": "${rootName}${separator}${appName}",
+  "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
   "window.dialogStyle": "custom",
+  // Editor.
   "editor.minimap.enabled": false,
   "editor.fontFamily": "Jetbrains Mono, SF Mono, monospace",
   "editor.fontLigatures": true,
@@ -15,6 +17,7 @@
   "editor.folding": false,
   "editor.overviewRulerBorder": false,
   "editor.tabSize": 2,
+  "editor.stickyScroll.enabled": false,
   "editor.renderWhitespace": "boundary",
   "editor.renderLineHighlight": "none",
   "editor.lightbulb.enabled": "off",
@@ -22,11 +25,17 @@
   "editor.acceptSuggestionOnEnter": "off",
   "editor.tabCompletion": "on",
   "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  // Others.
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "diffEditor.hideUnchangedRegions.enabled": true,
@@ -35,14 +44,38 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.enableTrash": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/pnpm-lock.yaml": true
+  },
+  // Workbench.
   "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
-  // Theme
+  // Theme.
   "workbench.colorTheme": "Monokai",
   "workbench.iconTheme": "vs-seti",
+  "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+      "textMateRules": [
+        {
+          "scope": ["entity.name.type.instance.jsdoc"],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
   "workbench.colorCustomizations": {
     "scrollbar.shadow": "#00000000",
     "[Monokai]": {
@@ -56,6 +89,13 @@
       "editorGroupHeader.tabsBackground": "#1D2021",
       "editorGroupHeader.noTabsBackground": "#1D2021",
       "editor.background": "#1D2021",
+      "editor.selectionBackground": "#689d6a40",
+      "editor.selectionHighlightBackground": "#fabd2f40",
+      "editor.hoverHighlightBackground": "#689d6a50",
+      "editor.findMatchBackground": "#83a59870",
+      "editor.findMatchHighlightBackground": "#fe801930",
+      "editor.findRangeHighlightBackground": "#83a59870",
+      "editor.lineHighlightBackground": "#3c383660",
       "editorWidget.background": "#1D2021",
       "peekViewEditor.background": "#1D2021",
       "editorHoverWidget.background": "#1D2021",
@@ -73,6 +113,7 @@
       "settings.focusedRowBackground": "#2C2C2B",
       "button.background": "#378889",
       "activityBar.background": "#1D2021",
+      "activityBar.activeBorder": "#378889",
       "activityBarBadge.background": "#378889",
       "badge.background": "#378889",
       "statusBar.background": "#1D2021",
@@ -101,13 +142,13 @@
       "terminal.ansiRed":"#F92672",
       "terminal.ansiWhite":"#F8F8F2",
       "terminal.ansiYellow":"#ffd866"
-    },
+    }
   },
-  // Source Control
+  // Source Control.
   "scm.showIncomingChanges": "never",
   "scm.showOutgoingChanges": "never",
   "git.openRepositoryInParentFolders": "never",
-  // Extensions
+  // Extensions.
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
   "gitlens.codeLens.authors.command": false,
@@ -135,7 +176,5 @@
     "scmItemInline": false,
     "scmItem": false
   },
-  // "material-icon-theme.hidesExplorerArrows": true,
-  // "material-icon-theme.folders.theme": "classic",
-  "git-graph.commitDetailsView.fileView.type": "File List",
+  "git-graph.commitDetailsView.fileView.type": "File List"
 }
