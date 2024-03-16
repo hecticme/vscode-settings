@@ -1,15 +1,5 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
-  {
-    "key": "ctrl+alt+f",
-    "command": "editor.action.formatSelection",
-    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+k ctrl+f",
-    "command": "-editor.action.formatSelection",
-    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-  },
+  // Make the tab-changing behavior works like in browser.
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
@@ -45,5 +35,33 @@
     "key": "ctrl+shift+tab",
     "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
     "when": "!activeEditorGroupEmpty"
+  },
+  // The default "reset zoom" shortcut is "Ctrl + Numpad0". I use a keyboard without numpad,
+  // and I accidentally zoom in a lot. This helps me reset zoom level quickly.
+  {
+    "key": "ctrl+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  // "TabFocusMode" is an accessibility feature, but I don't need it and often press it by accident.
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  // Quite often something is wrong with the TS server. This is to restart it quickly.
+  {
+    "key": "ctrl+alt+q",
+    "command": "typescript.restartTsServer"
   }
 ]
