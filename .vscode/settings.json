@@ -2,7 +2,6 @@
   "telemetry.telemetryLevel": "off",
   // Window.
   "window.restoreWindows": "none",
-  "window.menuBarVisibility": "toggle",
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
@@ -38,6 +37,8 @@
   // Others.
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
