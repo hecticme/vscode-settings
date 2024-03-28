@@ -79,7 +79,7 @@
     }
   },
   "workbench.colorCustomizations": {
-    "scrollbar.shadow": "#00000000",
+    "scrollbar.shadow": "#0000",
     "[Monokai]": {
       "menu.background": "#1D2021",
       "menu.border": "#414339",
@@ -88,7 +88,7 @@
       "scrollbarSlider.activeBackground": "#565b66b3",
       "titleBar.activeBackground": "#1D2021",
       "titleBar.inactiveBackground": "#1D2021",
-      "tab.border": "#00000000",
+      "tab.border": "#0000",
       "tab.activeBorder": "#66D9EF",
       "tab.activeBackground": "#1D2021",
       "tab.inactiveBackground": "#1D2021",
