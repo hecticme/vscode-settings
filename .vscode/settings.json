@@ -1,12 +1,12 @@
 {
   "telemetry.telemetryLevel": "off",
-  // Window.
+  // Window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
   "window.dialogStyle": "custom",
-  // Editor.
+  // Editor
   "editor.minimap.enabled": false,
   "editor.fontFamily": "Jetbrains Mono, SF Mono, monospace",
   "editor.fontLigatures": true,
@@ -35,7 +35,7 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  // Others.
+  // Others
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.cursorStyle": "line",
@@ -55,7 +55,7 @@
     "**/yarn.lock": true,
     "**/pnpm-lock.yaml": true
   },
-  // Workbench.
+  // Workbench
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 12,
@@ -70,7 +70,7 @@
   "scm.showIncomingChanges": "never",
   "scm.showOutgoingChanges": "never",
   "git.openRepositoryInParentFolders": "never",
-  // Extensions.
+  // Extensions
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
   "gitlens.codeLens.authors.command": false,
