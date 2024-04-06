@@ -63,8 +63,7 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
-  // Theme.
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Monomixed",
   "workbench.iconTheme": "vs-seti",
   // Source Control
   "scm.showIncomingChanges": "never",
