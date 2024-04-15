@@ -71,6 +71,7 @@
   "scm.showOutgoingChanges": "never",
   "git.openRepositoryInParentFolders": "never",
   // Extensions
+  "extensions.ignoreRecommendations": true,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
   "gitlens.codeLens.authors.command": false,
