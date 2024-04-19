@@ -36,6 +36,8 @@
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   // Others
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.cursorStyle": "line",
