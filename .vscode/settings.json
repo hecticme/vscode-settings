@@ -68,6 +68,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Monokai Peculiar",
   "workbench.iconTheme": "vs-seti",
+  "workbench.productIconTheme": "icons-carbon",
   // Source Control
   "scm.showIncomingChanges": "never",
   "scm.showOutgoingChanges": "never",
