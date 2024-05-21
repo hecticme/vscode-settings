@@ -9,7 +9,7 @@
   // Editor
   "editor.minimap.enabled": false,
   "editor.fontFamily": "Jetbrains Mono, SF Mono, monospace",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.lineHeight": 1.75,
   "editor.codeLens": false,
   "editor.guides.indentation": false,
