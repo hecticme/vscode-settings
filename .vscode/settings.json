@@ -11,6 +11,7 @@
   "editor.fontFamily": "Jetbrains Mono, SF Mono, monospace",
   "editor.fontLigatures": false,
   "editor.lineHeight": 1.75,
+  "editor.lineNumbers": "off",
   "editor.codeLens": false,
   "editor.guides.indentation": false,
   "editor.folding": false,
