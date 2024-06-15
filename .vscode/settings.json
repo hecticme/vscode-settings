@@ -25,6 +25,7 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.tabCompletion": "on",
+  "editor.colorDecorators": false,
   "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
