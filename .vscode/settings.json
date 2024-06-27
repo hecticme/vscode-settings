@@ -68,6 +68,7 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.alwaysShowEditorActions": true,
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Monokai Peculiar",
