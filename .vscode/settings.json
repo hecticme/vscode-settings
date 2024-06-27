@@ -72,6 +72,9 @@
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Monokai Peculiar",
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#0000"
+  },
   "workbench.iconTheme": "vs-seti",
   "workbench.productIconTheme": "icons-carbon",
   // Source Control
