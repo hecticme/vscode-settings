@@ -45,6 +45,7 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.stickyScroll.enabled": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
