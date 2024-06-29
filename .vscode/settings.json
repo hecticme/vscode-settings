@@ -71,9 +71,11 @@
   "workbench.editor.alwaysShowEditorActions": true,
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Monokai Peculiar",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#0000"
+    "editorRuler.foreground": "#0000",
+    "activityBar.activeBorder": "#0000",
+    "statusBarItem.remoteBackground": "#0000"
   },
   "workbench.iconTheme": "vs-seti",
   "workbench.productIconTheme": "icons-carbon",
