@@ -19,6 +19,7 @@
   "editor.overviewRulerBorder": false,
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": false,
+  "editor.find.addExtraSpaceOnTop": false,
   "editor.renderWhitespace": "boundary",
   "editor.renderLineHighlight": "none",
   "editor.lightbulb.enabled": "off",
@@ -28,24 +29,21 @@
   "editor.tabCompletion": "on",
   "editor.colorDecorators": false,
   "editor.wordWrap": "on",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "never",
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
-  },
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  // Others
-  "javascript.suggest.autoImports": false,
-  "typescript.suggest.autoImports": false,
+  // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  // Others
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
@@ -82,7 +80,9 @@
   // Source Control
   "scm.showIncomingChanges": "never",
   "scm.showOutgoingChanges": "never",
+  "scm.showHistoryGraph": false,
   "git.openRepositoryInParentFolders": "never",
+  "git.suggestSmartCommit": false,
   // Extensions
   "extensions.ignoreRecommendations": true,
   "svg.preview.mode": "svg",
