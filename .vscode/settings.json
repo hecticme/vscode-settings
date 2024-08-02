@@ -83,6 +83,11 @@
   "scm.showHistoryGraph": false,
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
+  "git.showActionButton": {
+    "commit": true,
+    "publish": false,
+    "sync": false
+  },
   // Extensions
   "extensions.ignoreRecommendations": true,
   "svg.preview.mode": "svg",
