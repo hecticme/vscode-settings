@@ -36,7 +36,6 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   // Breadcrumbs
   "breadcrumbs.icons": false,
-  "breadcrumbs.symbolPath": "off",
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
