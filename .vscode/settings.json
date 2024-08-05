@@ -62,7 +62,7 @@
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.indent": 12,
+  "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.tabSizing": "shrink",
