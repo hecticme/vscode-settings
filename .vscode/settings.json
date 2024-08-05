@@ -34,6 +34,9 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  // Breadcrumbs
+  "breadcrumbs.icons": false,
+  "breadcrumbs.symbolPath": "off",
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -42,7 +45,6 @@
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   // Others
-  "breadcrumbs.icons": false,
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
