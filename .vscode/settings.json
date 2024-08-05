@@ -42,6 +42,7 @@
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   // Others
+  "breadcrumbs.icons": false,
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
