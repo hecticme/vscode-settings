@@ -54,10 +54,5 @@
   {
     "key": "ctrl+m",
     "command": "-editor.action.toggleTabFocusMode"
-  },
-  // Quite often something is wrong with the TS server. This is to restart it quickly.
-  {
-    "key": "ctrl+alt+q",
-    "command": "typescript.restartTsServer"
   }
 ]
