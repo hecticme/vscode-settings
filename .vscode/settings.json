@@ -5,10 +5,12 @@
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
+  "window.experimentalControlOverlay": true,
   "window.dialogStyle": "custom",
+  "window.customTitleBarVisibility": "auto",
   // Editor
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "Jetbrains Mono, SF Mono, monospace",
+  "editor.fontFamily": "Jetbrains Mono, monospace",
   "editor.fontLigatures": false,
   "editor.lineHeight": 1.75,
   "editor.lineNumbers": "off",
@@ -46,6 +48,9 @@
   // Others
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "vue.updateImportsOnFileMove.enabled": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
@@ -70,19 +75,21 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.alwaysShowEditorActions": true,
   "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
     "activityBar.activeBorder": "#0000",
-    "statusBarItem.remoteBackground": "#0000"
+    "activityBarTop.activeBorder": "#0000",
+    "[Default Dark Modern]": {
+      "statusBarItem.remoteBackground": "#0000",
+      "tab.activeBorderTop": "#0000"
+    }
   },
   "workbench.iconTheme": "vs-seti",
   "workbench.productIconTheme": "icons-carbon",
   // Source Control
-  "scm.showIncomingChanges": "never",
-  "scm.showOutgoingChanges": "never",
-  "scm.showHistoryGraph": false,
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
   "git.showActionButton": {
@@ -94,30 +101,5 @@
   "extensions.ignoreRecommendations": true,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
-  "gitlens.codeLens.authors.command": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.hovers.currentLine.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.plusFeatures.enabled": false,
-  "gitlens.showWelcomeOnInstall": false,
-  "gitlens.fileAnnotations.command": "blame",
-  "gitlens.graph.layout": "editor",
-  "gitlens.ai.experimental.generateCommitMessage.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.currentLine.scrollable": false,
-  "gitlens.menus": {
-    "editor": false,
-    "editorGutter": false,
-    "editorTab": false,
-    "explorer": false,
-    "ghpr": false,
-    "scm": false,
-    "scmRepositoryInline": false,
-    "scmRepository": false,
-    "scmGroupInline": false,
-    "scmGroup": false,
-    "scmItemInline": false,
-    "scmItem": false
-  },
   "git-graph.commitDetailsView.fileView.type": "File List"
 }
