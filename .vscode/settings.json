@@ -10,7 +10,7 @@
   "window.customTitleBarVisibility": "auto",
   // Editor
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "Jetbrains Mono, monospace",
+  "editor.fontFamily": "IBM Plex Mono",
   "editor.fontLigatures": false,
   "editor.lineHeight": 1.75,
   "editor.lineNumbers": "off",
@@ -36,8 +36,6 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  // Breadcrumbs
-  "breadcrumbs.icons": false,
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -77,15 +75,9 @@
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Manic",
   "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#0000",
-    "activityBar.activeBorder": "#0000",
-    "activityBarTop.activeBorder": "#0000",
-    "[Default Dark Modern]": {
-      "statusBarItem.remoteBackground": "#0000",
-      "tab.activeBorderTop": "#0000"
-    }
+    "editorRuler.foreground": "#0000"
   },
   "workbench.iconTheme": "vs-seti",
   "workbench.productIconTheme": "icons-carbon",
