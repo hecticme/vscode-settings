@@ -60,6 +60,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "files.enableTrash": false,
+  "search.defaultViewMode": "tree",
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
