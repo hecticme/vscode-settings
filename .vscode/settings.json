@@ -13,7 +13,7 @@
   // Editor
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "monospace",
   "editor.fontLigatures": false,
   "editor.lineHeight": 1.75,
   "editor.lineNumbers": "off",
