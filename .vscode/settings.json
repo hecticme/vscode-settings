@@ -1,5 +1,6 @@
 {
   "telemetry.telemetryLevel": "off",
+  "update.mode": "manual",
   // Window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "inherit",
@@ -11,6 +12,7 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "hidden",
   // Editor
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "monospace",
@@ -19,6 +21,7 @@
   "editor.lineNumbers": "off",
   "editor.codeLens": false,
   "editor.guides.indentation": false,
+  "editor.matchBrackets": "never",
   "editor.glyphMargin": false,
   "editor.folding": false,
   "editor.overviewRulerBorder": false,
@@ -26,7 +29,7 @@
   "editor.stickyScroll.enabled": false,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.renderWhitespace": "none",
-  "editor.renderLineHighlight": "none",
+  "editor.renderLineHighlight": "line",
   "editor.lightbulb.enabled": "off",
   "editor.parameterHints.enabled": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -46,20 +49,23 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  // Others
+  // Languages
   "html.autoCreateQuotes": false,
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vue.updateImportsOnFileMove.enabled": false,
+  // Diff Editor
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
+  // Files
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "files.enableTrash": false,
+  // Search
   "search.defaultViewMode": "tree",
   "search.exclude": {
     "**/node_modules": true,
