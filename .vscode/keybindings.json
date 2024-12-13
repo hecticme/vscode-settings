@@ -54,5 +54,15 @@
   {
     "key": "ctrl+m",
     "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "alt+s",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "eslint.executeAutofix",
+        "stylelint.executeAutofix"
+      ]
+    }
   }
 ]
