@@ -42,6 +42,12 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "never"
+  },
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -106,5 +112,10 @@
   "extensions.ignoreRecommendations": true,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
-  "git-graph.commitDetailsView.fileView.type": "File Tree"
+  "git-graph.commitDetailsView.fileView.type": "File Tree",
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "vue"
+  ]
 }
