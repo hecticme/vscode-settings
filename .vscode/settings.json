@@ -11,6 +11,7 @@
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": false,
   "window.menuBarVisibility": "hidden",
+  "window.autoDetectColorScheme": true,
   // Editor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.bracketPairColorization.enabled": false,
@@ -87,6 +88,8 @@
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Manic",
+  "workbench.preferredDarkColorTheme": "Manic",
+  "workbench.preferredLightColorTheme": "Manic By Day",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
     "scrollbar.shadow": "#0000"
