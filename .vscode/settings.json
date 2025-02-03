@@ -9,7 +9,7 @@
   "window.experimentalControlOverlay": true,
   "window.dialogStyle": "custom",
   "window.customTitleBarVisibility": "auto",
-  "window.commandCenter": false,
+  "window.commandCenter": true,
   "window.menuBarVisibility": "hidden",
   // Editor
   "editor.cursorSmoothCaretAnimation": "off",
