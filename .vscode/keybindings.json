@@ -36,9 +36,20 @@
     "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
     "when": "!activeEditorGroupEmpty"
   },
+  {
+    "key": "alt+s",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "eslint.executeAutofix",
+        "stylelint.executeAutofix"
+      ]
+    }
+  },
+
+  // ######################## On Windows + Linux
   // The default "reset zoom" shortcut is "Ctrl + Numpad0". I use a keyboard without numpad,
   // and I accidentally zoom in a lot. This helps me reset zoom level quickly.
-  // On Windows + Linux:
   {
     "key": "ctrl+0",
     "command": "workbench.action.zoomReset"
@@ -51,7 +62,13 @@
     "key": "ctrl+0",
     "command": "-workbench.action.focusSideBar"
   },
-  // On MacOS:
+  // "TabFocusMode" is an accessibility feature, but I often press it by accident.
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+
+  // ######################## On Mac
   {
     "key": "cmd+0",
     "command": "workbench.action.zoomReset"
@@ -60,19 +77,14 @@
     "key": "cmd+numpad0",
     "command": "-workbench.action.zoomReset"
   },
-  // Windows + Linux only. "TabFocusMode" is an accessibility feature, but I often press it by accident.
   {
-    "key": "ctrl+m",
-    "command": "-editor.action.toggleTabFocusMode"
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
   },
   {
-    "key": "alt+s",
-    "command": "runCommands",
-    "args": {
-      "commands": [
-        "eslint.executeAutofix",
-        "stylelint.executeAutofix"
-      ]
-    }
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
   }
 ]
