@@ -1,7 +1,6 @@
 {
   "telemetry.telemetryLevel": "off",
   "update.mode": "manual",
-  "chat.commandCenter.enabled": false,
   // Window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "inherit",
@@ -51,6 +50,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.initialHint": false,
   // Languages
   "html.autoCreateQuotes": false,
   "javascript.suggest.autoImports": false,
@@ -87,6 +87,7 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.alwaysShowEditorActions": true,
   "workbench.editor.enablePreview": false,
+  "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Manic By Day",
@@ -97,6 +98,7 @@
   "workbench.iconTheme": "glyph.legacy",
   "workbench.productIconTheme": "icons-carbon",
   // Source Control
+  "git.branchProtectionPrompt": "alwaysCommit",
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
   "git.showActionButton": {
