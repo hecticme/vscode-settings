@@ -63,6 +63,8 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
+  // Explorer
+  "explorer.compactFolders": false,
   // Files
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
