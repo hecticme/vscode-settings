@@ -12,7 +12,8 @@
   "window.commandCenter": true,
   "window.menuBarVisibility": "hidden",
   // Editor
-  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "IBM Plex Mono",
