@@ -1,12 +1,12 @@
 {
   "telemetry.telemetryLevel": "off",
   "update.mode": "manual",
+  "security.workspace.trust.enabled": false,
   // Window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
-  "window.experimentalControlOverlay": true,
   "window.dialogStyle": "custom",
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": true,
@@ -36,9 +36,11 @@
   "editor.parameterHints.enabled": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.inlineSuggest.syntaxHighlightingEnabled": false,
   "editor.tabCompletion": "on",
   "editor.colorDecorators": false,
   "editor.wordWrap": "on",
+  "editor.unusualLineTerminators": "auto",
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
@@ -52,6 +54,7 @@
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.initialHint": false,
+  "terminal.integrated.fontSize": 12,
   // Languages
   "html.autoCreateQuotes": false,
   "javascript.suggest.autoImports": false,
@@ -93,7 +96,7 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Manic By Day",
+  "workbench.colorTheme": "Manic Pale Night",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
     "scrollbar.shadow": "#0000"
@@ -101,6 +104,7 @@
   "workbench.iconTheme": "glyph.legacy",
   "workbench.productIconTheme": "icons-carbon",
   // Source Control
+  "git.autofetch": false,
   "git.branchProtectionPrompt": "alwaysCommit",
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
@@ -112,6 +116,7 @@
   "scm.defaultViewMode": "tree",
   // Extensions
   "extensions.ignoreRecommendations": true,
+  "inlineChat.lineNaturalLanguageHint": false,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
   "vue.updateImportsOnFileMove.enabled": false,
