@@ -27,6 +27,7 @@
   "editor.glyphMargin": false,
   "editor.folding": false,
   "editor.overviewRulerBorder": false,
+  "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": false,
   "editor.find.addExtraSpaceOnTop": false,
@@ -96,6 +97,7 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
   "workbench.colorTheme": "Manic Pale Night",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
@@ -120,7 +122,6 @@
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
   "vue.updateImportsOnFileMove.enabled": false,
-  "git-graph.commitDetailsView.fileView.type": "File Tree",
   "stylelint.validate": [
     "css",
     "postcss",
