@@ -22,6 +22,7 @@
   "editor.lineHeight": 1.75,
   "editor.lineNumbers": "off",
   "editor.codeLens": false,
+  "editor.hover.delay": 300,
   "editor.guides.indentation": false,
   "editor.matchBrackets": "always",
   "editor.glyphMargin": false,
@@ -70,7 +71,10 @@
   "diffEditor.renderSideBySide": false,
   // Explorer
   "explorer.compactFolders": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
   // Files
+  "files.autoSave": "off",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -87,6 +91,7 @@
   },
   // Workbench
   "workbench.startupEditor": "none",
+  "workbench.hover.delay": 500,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "none",
@@ -116,8 +121,10 @@
     "sync": false
   },
   "scm.defaultViewMode": "tree",
+  "scm.compactFolders": false,
   // Extensions
   "extensions.ignoreRecommendations": true,
+  "github.copilot.editor.enableAutoCompletions": false,
   "inlineChat.lineNaturalLanguageHint": false,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
