@@ -7,16 +7,17 @@
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
-  "window.dialogStyle": "custom",
+  "window.dialogStyle": "native",
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": true,
   "window.menuBarVisibility": "hidden",
+  "window.autoDetectColorScheme": false,
   // Editor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "solid",
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.75,
@@ -70,9 +71,10 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   // Explorer
-  "explorer.compactFolders": false,
+  "explorer.compactFolders": true,
   "explorer.confirmPasteNative": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.incrementalNaming": "disabled",
   // Files
   "files.autoSave": "off",
   "files.insertFinalNewline": true,
@@ -103,7 +105,7 @@
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "Manic Pale Night",
+  "workbench.colorTheme": "Manic By Day",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
     "scrollbar.shadow": "#0000"
@@ -113,6 +115,7 @@
   // Source Control
   "git.autofetch": false,
   "git.branchProtectionPrompt": "alwaysCommit",
+  "git.discardUntrackedChangesToTrash": false,
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
   "git.showActionButton": {
@@ -121,10 +124,15 @@
     "sync": false
   },
   "scm.defaultViewMode": "tree",
-  "scm.compactFolders": false,
+  "scm.compactFolders": true,
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
   "inlineChat.lineNaturalLanguageHint": false,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
