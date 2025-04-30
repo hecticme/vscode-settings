@@ -33,7 +33,7 @@
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": false,
   "editor.find.addExtraSpaceOnTop": false,
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "selection",
   "editor.renderLineHighlight": "line",
   "editor.lightbulb.enabled": "off",
   "editor.parameterHints.enabled": false,
