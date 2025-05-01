@@ -18,7 +18,7 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "Maple Mono",
-  "editor.fontLigatures": "'cv01', 'cv02', 'cv04', 'cv08', 'cv41', 'ss04'",
+  "editor.fontLigatures": "'cv01', 'cv02', 'cv04', 'cv08', 'cv41', 'ss04', 'ss05'",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.75,
   "editor.lineNumbers": "off",
