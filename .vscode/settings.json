@@ -127,12 +127,6 @@
   "scm.compactFolders": true,
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
   "inlineChat.lineNaturalLanguageHint": false,
   "svg.preview.mode": "svg",
   "vue.codeLens.enabled": false,
