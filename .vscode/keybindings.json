@@ -46,6 +46,10 @@
       ]
     }
   },
+  {
+    "key": "shift+escape",
+    "command": "vue.action.restartServer"
+  },
 
   // ######################## On Windows + Linux
   // The default "reset zoom" shortcut is "Ctrl + Numpad0". I use a keyboard without numpad,
