@@ -48,7 +48,7 @@
   },
   {
     "key": "shift+escape",
-    "command": "vue.action.restartServer"
+    "command": "workbench.action.reloadWindow"
   },
 
   // ######################## On Windows + Linux
