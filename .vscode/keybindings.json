@@ -1,5 +1,7 @@
+// I have different keybindings for MacOS and Windows/Linux.
+
+// For MacOS:
 [
-  // Make the tab-changing behavior works like browser.
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
@@ -37,6 +39,103 @@
     "when": "!activeEditorGroupEmpty"
   },
   {
+    "key": "cmd+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "cmd+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "alt+s",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "eslint.executeAutofix",
+        "stylelint.executeAutofix"
+      ]
+    }
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "alt+escape",
+    "command": "toggleSuggestionDetails",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "shift+escape",
+    "command": "workbench.action.reloadWindow"
+  },
+  {
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
+  },
+]
+
+// For Windows and Linux:
+[
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
     "key": "alt+s",
     "command": "runCommands",
     "args": {
@@ -50,51 +149,8 @@
     "key": "shift+escape",
     "command": "workbench.action.reloadWindow"
   },
-
-  // ######################## On Windows + Linux
-  // The default "reset zoom" shortcut is "Ctrl + Numpad0". I use a keyboard without numpad,
-  // and I accidentally zoom in a lot. This helps me reset zoom level quickly.
   {
-    "key": "ctrl+0",
-    "command": "workbench.action.zoomReset"
-  },
-  {
-    "key": "ctrl+numpad0",
-    "command": "-workbench.action.zoomReset"
-  },
-  {
-    "key": "ctrl+0",
-    "command": "-workbench.action.focusSideBar"
-  },
-  // "TabFocusMode" is an accessibility feature, but I often press it by accident.
-  {
-    "key": "ctrl+m",
-    "command": "-editor.action.toggleTabFocusMode"
-  },
-
-  // ######################## On Mac
-  {
-    "key": "cmd+0",
-    "command": "workbench.action.zoomReset"
-  },
-  {
-    "key": "cmd+numpad0",
-    "command": "-workbench.action.zoomReset"
-  },
-  {
-    "key": "shift+cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active"
-  },
-  {
-    "key": "ctrl+shift+g",
-    "command": "-workbench.view.scm",
-    "when": "workbench.scm.active"
-  },
-  // Toggle intellisense and toggle its details, same behavior with other OS.
-  {
-    "key": "alt+escape",
-    "command": "toggleSuggestionDetails",
-    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
   }
 ]
