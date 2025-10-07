@@ -1,17 +1,17 @@
 {
   "telemetry.telemetryLevel": "off",
   "update.mode": "manual",
+  "update.showReleaseNotes": false,
   "security.workspace.trust.enabled": false,
   // Window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
-  "window.dialogStyle": "custom",
-  "window.menuStyle": "custom",
+  "window.dialogStyle": "native",
+  "window.menuStyle": "native",
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": true,
-  "window.menuBarVisibility": "hidden",
   "window.autoDetectColorScheme": false,
   // Editor
   "editor.cursorSmoothCaretAnimation": "off",
@@ -45,13 +45,17 @@
   "editor.colorDecorators": false,
   "editor.wordWrap": "on",
   "editor.unusualLineTerminators": "auto",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  // Chat
   "chat.editor.fontSize": 12,
   "chat.editor.wordWrap": "on",
+  "chat.disableAIFeatures": false,
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -70,6 +74,8 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
   "css.lint.unknownAtRules": "ignore",
   // Diff Editor
   "diffEditor.hideUnchangedRegions.enabled": true,
@@ -104,10 +110,15 @@
   "workbench.tree.renderIndentGuides": "always",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.wrapTabs": false,
   "workbench.editor.alwaysShowEditorActions": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.empty.hint": "hidden",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
   "workbench.activityBar.location": "top",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.colorTheme": "Default Dark Modern",
@@ -122,6 +133,8 @@
   "git.autofetch": false,
   "git.branchProtectionPrompt": "alwaysCommit",
   "git.discardUntrackedChangesToTrash": false,
+  "git.ignoreLimitWarning": true,
+  "git.mergeEditor": false,
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
   "git.showActionButton": {
@@ -135,9 +148,13 @@
   // Extensions
   "extensions.ignoreRecommendations": true,
   "inlineChat.lineNaturalLanguageHint": false,
-  "svg.preview.mode": "svg",
-  "vue.codeLens.enabled": false,
-  "vue.updateImportsOnFileMove.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "vue.editor.templateInterpolationDecorators": false,
   "stylelint.validate": [
     "css",
     "postcss",
