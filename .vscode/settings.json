@@ -14,6 +14,7 @@
   "window.commandCenter": true,
   "window.autoDetectColorScheme": false,
   // Editor
+  "editor.autoClosingDelete": "never",
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorBlinking": "solid",
   "editor.bracketPairColorization.enabled": false,
@@ -41,7 +42,7 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.inlineSuggest.syntaxHighlightingEnabled": false,
-  "editor.tabCompletion": "on",
+  "editor.tabCompletion": "off",
   "editor.colorDecorators": false,
   "editor.wordWrap": "on",
   "editor.unusualLineTerminators": "auto",
@@ -52,6 +53,8 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
   // Chat
   "chat.editor.fontSize": 12,
   "chat.editor.wordWrap": "on",
