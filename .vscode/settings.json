@@ -45,6 +45,7 @@
   "editor.tabCompletion": "off",
   "editor.colorDecorators": false,
   "editor.wordWrap": "on",
+  "editor.wordBasedSuggestions": "off",
   "editor.unusualLineTerminators": "auto",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
