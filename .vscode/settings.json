@@ -107,6 +107,10 @@
     "**/pnpm-lock.yaml": true
   },
   // Workbench
+  "workbench.editor.customLabels.patterns": {
+    "*/index.*": "${filename}.${extname}",
+    "**/index.*": "${dirname}/${filename}.${extname}",
+  },
   "workbench.startupEditor": "none",
   "workbench.hover.delay": 500,
   "workbench.tree.enableStickyScroll": true,
