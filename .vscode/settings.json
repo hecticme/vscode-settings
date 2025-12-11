@@ -8,13 +8,17 @@
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
-  "window.dialogStyle": "native",
-  "window.menuStyle": "native",
+  "window.dialogStyle": "custom",
+  "window.menuStyle": "custom",
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": true,
   "window.autoDetectColorScheme": false,
   // Editor
+  "editor.accessibilitySupport": "off",
   "editor.autoClosingDelete": "never",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingComments": "never",
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorBlinking": "solid",
   "editor.bracketPairColorization.enabled": false,
@@ -78,9 +82,10 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "js/ts.implicitProjectConfig.checkJs": true,
-  "js/ts.implicitProjectConfig.strictNullChecks": true,
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
   "css.lint.unknownAtRules": "ignore",
+  "css.format.spaceAroundSelectorSeparator": true,
   // Diff Editor
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -109,13 +114,13 @@
   // Workbench
   "workbench.editor.customLabels.patterns": {
     "*/index.*": "${filename}.${extname}",
-    "**/index.*": "${dirname}/${filename}.${extname}",
+    "**/index.*": "${dirname}/${filename}.${extname}"
   },
   "workbench.startupEditor": "none",
-  "workbench.hover.delay": 500,
+  "workbench.hover.delay": 300,
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.wrapTabs": false,
@@ -129,14 +134,15 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Manic Pale Night",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#0000",
     "scrollbar.shadow": "#0000",
-    "tab.unfocusedActiveBorderTop": "#0000"
+    "tab.unfocusedActiveBorderTop": "#0000",
+    "tab.activeBorderTop": "#0000"
   },
   "workbench.iconTheme": "vs-seti",
-  "workbench.productIconTheme": "icons-carbon",
+  "workbench.productIconTheme": "Default",
   // Source Control
   "git.autofetch": false,
   "git.branchProtectionPrompt": "alwaysCommit",
@@ -145,6 +151,7 @@
   "git.mergeEditor": false,
   "git.openRepositoryInParentFolders": "never",
   "git.suggestSmartCommit": false,
+  "git.enableSmartCommit": false,
   "git.showActionButton": {
     "commit": true,
     "publish": false,
@@ -153,6 +160,8 @@
   "scm.defaultViewMode": "tree",
   "scm.compactFolders": true,
   "scm.showInputActionButton": false,
+  "scm.graph.showIncomingChanges": false,
+  "scm.graph.showOutgoingChanges": false,
   // Extensions
   "extensions.ignoreRecommendations": true,
   "inlineChat.lineNaturalLanguageHint": false,
@@ -162,10 +171,12 @@
     "markdown": false,
     "scminput": false
   },
+  "vue.editor.reactivityVisualization": false,
   "vue.editor.templateInterpolationDecorators": false,
   "stylelint.validate": [
     "css",
     "postcss",
     "vue"
-  ]
+  ],
+  "iconify.annotations": false
 }
