@@ -11,7 +11,7 @@
   "window.dialogStyle": "custom",
   "window.menuStyle": "custom",
   "window.customTitleBarVisibility": "auto",
-  "window.commandCenter": true,
+  "window.commandCenter": false,
   "window.autoDetectColorScheme": false,
   // Editor
   "editor.accessibilitySupport": "off",
@@ -80,8 +80,8 @@
   "typescript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.importModuleSpecifier": "shortest",
   "javascript.preferences.importModuleSpecifierEnding": "js",
   "typescript.preferences.importModuleSpecifierEnding": "js",
   "css.lint.unknownAtRules": "ignore",
@@ -117,6 +117,7 @@
     "**/index.*": "${dirname}/${filename}.${extname}"
   },
   "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
   "workbench.hover.delay": 300,
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.indent": 16,
@@ -160,11 +161,11 @@
   "scm.defaultViewMode": "tree",
   "scm.compactFolders": true,
   "scm.showInputActionButton": false,
+  "scm.graph.badges": "all",
   "scm.graph.showIncomingChanges": false,
   "scm.graph.showOutgoingChanges": false,
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "inlineChat.lineNaturalLanguageHint": false,
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
