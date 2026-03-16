@@ -79,6 +79,25 @@
     "key": "alt+z",
     "command": "-editor.action.toggleWordWrap"
   },
+  {
+    "key": "cmd+shift+/",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "name": "jsdoc"
+    }
+  },
+  {
+    "key": "cmd+ctrl+/",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "name": "inline-jsdoc"
+    }
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "-chatEditor.action.reject",
+    "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isCurrentlyBeingModified || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isCurrentlyBeingModified"
+  }
 ]
 
 // For Windows and Linux:
